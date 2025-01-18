@@ -1,0 +1,35 @@
+.{
+    .name = "stagit",
+    .version = "1.2.0",
+    .dependencies = .{
+        .libgit2 = .{
+            .url = "https://github.com/MFAshby/libgit2/archive/32982f81eb299be2529a3319ec8ef2b7c8279bcb.tar.gz",
+            .hash = "1220d24716843588141b7230cadecc7f57a93d356c13a70fb34e40a98eb8bb6e5504",
+        },
+        .stagit = .{
+            // Use a github mirror, github can cope.
+            .url = "https://github.com/oxalorg/stagit/archive/5334f3e0009bb7d5835c3bad60db507bfd146930.tar.gz",
+            .hash = "1220a48ea921190f419b85e6aad45494d7e953f2bdc65141b996d7b925eca7bf648b",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "compat.h",
+        "example_create.sh",
+        "example_post-receive.sh",
+        "favicon.png",
+        "LICENSE",
+        "logo.png",
+        "Makefile",
+        "README",
+        "reallocarray.c",
+        "stagit.1",
+        "stagit.c",
+        "stagit-index.1",
+        "stagit-index.c",
+        "strlcat.c",
+        "strlcpy.c",
+        "style.css",
+    },
+}
