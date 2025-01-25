@@ -7,7 +7,7 @@ pub fn build(b: *std.Build) void {
     const libgit2_dep = b.dependency("libgit2", .{
         .target = target,
         .optimize = optimize,
-        .@"enable-ssh" = true, // optional ssh support via libssh2
+        .@"enable-ssh" = false, // optional ssh support via libssh2
     });
     const stagit_dep = b.dependency("stagit", .{});
     const compat_sources: []const []const u8 = &.{ "reallocarray.c", "strlcat.c", "strlcpy.c" };
