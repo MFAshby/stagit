@@ -3,7 +3,7 @@
     .version = "1.2.0",
     .dependencies = .{
         .libgit2 = .{
-            .url = "https://github.com/MFAshby/libgit2/archive/32982f81eb299be2529a3319ec8ef2b7c8279bcb.tar.gz",
+            .url = "https://github.com/allyourcodebase/libgit2/archive/32982f81eb299be2529a3319ec8ef2b7c8279bcb.tar.gz",
             .hash = "1220d24716843588141b7230cadecc7f57a93d356c13a70fb34e40a98eb8bb6e5504",
         },
         .stagit = .{
